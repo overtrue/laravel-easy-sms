@@ -1,6 +1,6 @@
 {
-    "name": "overtrue/laravel-package",
-    "description": "Laravel package template",
+    "name": "overtrue/laravel-easy-sms",
+    "description": "overtrue/easy-sms service provider for Laravel.",
     "license": "MIT",
     "authors": [
         {
@@ -9,11 +9,12 @@
         }
     ],
     "require": {
-        "laravel/framework": "~6.0|~7.0"
+        "laravel/framework": "~6.0|~7.0",
+        "overtrue/easy-sms": "^1.1"
     },
     "autoload": {
         "psr-4": {
-            "Overtrue\\LaravelPackage\\": "src"
+            "Overtrue\\LaravelEasySms\\": "src"
         }
     },
     "autoload-dev": {
@@ -23,15 +24,15 @@
     },
     "require-dev": {
         "mockery/mockery": "^1.2",
-        "phpunit/phpunit": "~8.0",
-        "orchestra/testbench": "^3.7",
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "^4.0",
         "brainmaestro/composer-git-hooks": "^2.7",
         "friendsofphp/php-cs-fixer": "^2.16"
     },
     "extra": {
         "laravel": {
             "providers": [
-                "PackageServiceProvider"
+                "\\Overtrue\\LaravelEasySms\\EasySmsServiceProvider"
             ]
         },
         "hooks": {
