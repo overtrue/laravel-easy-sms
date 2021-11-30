@@ -3,6 +3,8 @@ Laravel EasySMS
 
 [overtrue/easy-sms](https://github.com/overtrue/easy-sms) service provider for Laravel.
 
+[![Sponsor me](https://github.com/overtrue/overtrue/blob/master/sponsor-me-button-s.svg?raw=true)](https://github.com/sponsors/overtrue)
+
 ## Installing
 
 ```shell
@@ -69,6 +71,8 @@ You can contribute in one of three ways:
 3. Contribute new features or update the wiki.
 
 _The code contribution process is not very formal. You just need to make sure that you follow the PSR-0, PSR-1, and PSR-2 coding guidelines. Any new code contributions must be accompanied by unit tests where applicable._
+
+[![Sponsor me](https://github.com/overtrue/overtrue/blob/master/sponsor-me.svg?raw=true)](https://github.com/sponsors/overtrue)
 
 ## Project supported by JetBrains
 
