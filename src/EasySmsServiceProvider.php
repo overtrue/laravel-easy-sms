@@ -15,7 +15,7 @@ class EasySmsServiceProvider extends ServiceProvider implements DeferrableProvid
 
     public function register()
     {
-        $this->app->singleton(EasySms::class, function () {
+        $this->app->bind(EasySms::class, function () {
             return new EasySms(\config('services.easy-sms'));
         });
 

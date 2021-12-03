@@ -1,7 +1,11 @@
-Laravel EasySMS
----
+# Laravel EasySMS
 
 [overtrue/easy-sms](https://github.com/overtrue/easy-sms) service provider for Laravel.
+
+![Laravel Octane Ready Status](https://img.shields.io/badge/Octance-ready-green?style=flat-square)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/overtrue/laravel-easy-sms?style=flat-square)
+![GitHub License](https://img.shields.io/github/license/overtrue/laravel-easy-sms?style=flat-square)
+![Packagist Downloads](https://img.shields.io/packagist/dt/overtrue/laravel-easy-sms?style=flat-square)
 
 [![Sponsor me](https://github.com/overtrue/overtrue/blob/master/sponsor-me-button-s.svg?raw=true)](https://github.com/sponsors/overtrue)
 
