@@ -12,23 +12,23 @@
 ## Installing
 
 ```shell
-$ composer require overtrue/laravel-easy-sms -vvv
+$ composer require overtrue/laravel-easy-sms
 ```
 
 ## Usage
 
-*config/services.php*
+_config/services.php_
 
 ```php
     'easy-sms' => [
         // HTTP 请求的超时时间（秒）
         'timeout' => 5.0,
-    
+
         // 默认发送配置
         'default' => [
             // 网关调用策略，默认：顺序调用
             'strategy' => \Overtrue\EasySms\Strategies\OrderStrategy::class,
-    
+
             // 默认可用的发送网关
             'gateways' => [
                 'yunpian', 'aliyun',
@@ -83,7 +83,6 @@ _The code contribution process is not very formal. You just need to make sure th
 Many thanks to Jetbrains for kindly providing a license for me to work on this and other open-source projects.
 
 [![](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)](https://www.jetbrains.com/?from=https://github.com/overtrue)
-
 
 ## PHP 扩展包开发
 
